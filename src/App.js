@@ -1,5 +1,10 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ShoppingList from './components/shoppinglist'; // Ensure the component name matches the file name
+import Tables from './components/tables';
+import Cars from './components/cars';
+import Essay from './components/essay';
 
 function App() {
   return (
@@ -7,17 +12,14 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Achola Gloria Fortunate <code>src/App.js</code> and save to reload.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <ShoppingList name="Groceries" />
+      <Tables name="mytable" />
+      <Cars name="mycars" />
+      <Essay name="myessay" />
+      
     </div>
   );
 }

@@ -36,3 +36,162 @@
     transform: rotate(360deg);
   }
 }
+
+.tables {
+  padding: 20px;
+  background-color: #d6df57;
+}
+
+.tables h1 {
+  margin-bottom: 20px;
+  background-color: #d6df57;
+}
+
+.tables table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tables th, .tables td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.tables th {
+  background-color: #d6df57;
+}
+
+.tables tr:nth-child(even) {
+  background-color: #f9f9f944;
+}
+
+.tables tr:hover {
+  background-color:#ed8899;
+}
+
+/* Essay.css */
+
+.essay {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(230, 166, 121);
+  border: 1px solid #7c6363;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: #333;
+}
+
+p:last-child {
+  font-weight: bold;
+  text-align: center;
+  color: #0b9210;
+}
+
+/* Cars.css */
+
+.cars {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: #4CAF50;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Gallery.css */
+
+.gallery {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item p {
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #333;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+
